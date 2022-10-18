@@ -2,7 +2,9 @@
 :root {
     /* Color */
     --color-white:           #ffffff;
+
     --color-black:           #1D1F24;
+
     --color-gray-black:      #323232;
     --color-gray:            #A1A1A1;
     --color-gray30:          #F7F8FA;
@@ -16,6 +18,7 @@
     --color-gray700:         #4D4D4D;
     --color-gray800:         #333333;
     --color-gray900:         #1A1A1A;
+    --color-background-gray: #F6F6F8;
 
     --color-blue400:         #63C0FA;
     --color-blue500:         #36ACF5;
