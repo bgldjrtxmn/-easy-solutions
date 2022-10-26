@@ -2,60 +2,29 @@
 :root {
     /* Color */
     --color-white:           #ffffff;
-
+    --color-gray-white:      #F6F6F8;
     --color-black:           #1D1F24;
 
     --color-gray-black:      #323232;
     --color-gray:            #A1A1A1;
-    --color-gray30:          #F7F8FA;
-    --color-gray50:          #F2F2F2;
-    --color-gray100:         #E5E5E5;
     --color-gray200:         #CCCCCC;
-    --color-gray300:         #B3B3B3;
     --color-gray400:         #999999;
-    --color-gray500:         #808080;
-    --color-gray600:         #666666;
-    --color-gray700:         #4D4D4D;
-    --color-gray800:         #333333;
-    --color-gray900:         #1A1A1A;
     --color-background-gray: #F6F6F8;
-
-    --color-blue400:         #63C0FA;
-    --color-blue500:         #36ACF5;
-    --color-blue600:         #2091D7;
-    --color-blue700:         #157AB8;
-    --color-blue800:         #0A5F94;
-    --color-blue900:         #074267;
-
-    --color-red600:          #D8134E;
-    --color-red700:          #A30E3A;
-
-    --color-green600:        #16A34A;
-    --color-green700:        #15803D;
-
-    --color-yellow400:       #FACC15;
-
     --color-blue:            #4985FF;
 
-    /* Font */
+    
+     /* Font */
+    @font-face {
+        font-family: Montserrat;
+        src: url(/static/fonts/Montserrat-Regular.ttf);
+      }
+
     --font-montserrat: 'Montserrat', sans-serif;
 
     /* Container */
     --container-width: 1113px;
 
-    /* Other */
-    --header-height: 128px;
-    --search-height: 84px;
-    --border-radius-small: 2px;
-    --border-radius-medium: 4px;
-    --border-radius-large: 6px;
 
-    /* Z-index values */
-    --z-index-header: 500;
-    --z-index-menu: 450;
-    --z-index-overlay: 400;
-    --z-index-modal: 600;
-    --z-index-modal-overlay: 550;
 }
 
 @media (max-width: 1365px) {
