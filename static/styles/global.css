@@ -1,4 +1,11 @@
-/* Variables */
+/* Font */
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    font-display: swap;
+    src: url(../fonts/Montserrat-Regular.woff2);
+  }
+
+/* Variables */ 
 :root {
     /* Color */
     --color-white:           #ffffff;
@@ -14,11 +21,6 @@
 
     
      /* Font */
-    @font-face {
-        font-family: Montserrat;
-        src: url(/static/fonts/Montserrat-Regular.ttf);
-      }
-
     --font-montserrat: 'Montserrat', sans-serif;
 
     /* Container */

@@ -11,100 +11,104 @@
         href="/static/styles/global.css" />
   <link rel="stylesheet"
         href="/static/styles/style.css" />
+
   <title>Передовая IT студия</title>
 </head>
 
 <body>
-  <header class="header ">
-    <nav class="container line_gray">
-      <ul class="header__navigation-list">
-        <li><a class="header__navigation-list-item"
+
+  <header class="header">
+    <nav class="container navigation__line-gray">
+      <ul class="navigation">
+        <li><a class="navigation-list-item"
              href="#">Главная</a></li>
-        <li><a class="header__navigation-list-item"
+        <li><a class="navigation-list-item"
              href="#">Наши проекты</a></li>
-        <li><a class="header__navigation-list-item"
+        <li><a class="navigation-list-item"
              href="#">Услуги</a></li>
-        <li><a class="header__navigation-list-item"
+        <li><a class="navigation-list-item"
              href="#">Новости</a></li>
-        <li><a class="header__navigation-list-item"
+        <li><a class="navigation-list-item"
              href="#">Контакты</a></li>
       </ul>
     </nav>
 
-    <div class="main__first-information container">
-      <h3 class="main-text-white">Передовая IT студия</h3>
-      <h1 class="main-white-title margin-top_30 text-align_center width-title">
+    <div class="hero container">
+      <h3 class="hero_subtitle text_color_white">Передовая IT студия</h3>
+      <h1 class="hero_title title_color_white">
         Мы создаем легкие решения сложных задач и проблем</h1>
-      <button class="main__button">Наши проекты</button>
-      </в>
-
+      <button class="hero_button main__button">Наши проекты</button>
+    </div>
   </header>
 
   <main>
     <section class="services container">
       <div class="services__wrapper-description">
-        <h2 class="main-black-title">Мы создаем мобильные приложения для крупных корпораций</h2>
-        <p class="main-text-gray">
+        <h2 class="services_title title_color_black">Мы создаем мобильные приложения для крупных корпораций</h2>
+        <p class="text_color_gray">
           Lorem Ipsum - это текст-"рыба", часто используемый в печати и
           вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
           на латинице с начала XVI века.
         </p>
       </div>
-      <div class="services__wrapper-examples container">
-        <div class="services__wrapper-examples-item">
-          <div class="external__circle">
-            <div class="interior__circle">
-              <img class="services__notebook-image"
-                   src="./static/icons/notebook.svg"
-                   alt="notebook" />
+      <div class="services__wrapper container">
+        <div class="services__item">
+          <div class="services__external-circle">
+            <div class="services__interior-circle">
+              <svg class="services__notebook">
+                <use xlink:href="static/icons/sprite.svg#notebook">
+                </use>
+              </svg>
             </div>
           </div>
           <div class="services__description">
-            <h3 class="main-text-black">Создание сайтов</h3>
-            <p class="main-text-gray margin_top-0">Lorem Ipsum - это текст- "рыба", часто используе в печати и
+            <h3 class="text_color_black">Создание сайтов</h3>
+            <p class="description_captoin text_color_gray">Lorem Ipsum - это текст- "рыба", часто используе в печати и
               вэб-дизайне.</p>
           </div>
         </div>
 
-        <div class="services__wrapper-examples-item">
-          <div class="external__circle">
-            <div class="interior__circle">
-              <img class="services__notebook-image"
-                   src="./static/icons/notebook.svg"
-                   alt="notebook" />
+        <div class="services__item">
+          <div class="services__external-circle">
+            <div class="services__interior-circle">
+              <svg class="services__notebook">
+                <use xlink:href="static/icons/sprite.svg#notebook">
+                </use>
+              </svg>
             </div>
           </div>
           <div class="services__description">
-            <h3 class="main-text-black">Создание сайтов</h3>
-            <p class="main-text-gray margin_top-0">Lorem Ipsum - это текст- "рыба", часто используе в печати и
+            <h3 class="text_color_black">Создание сайтов</h3>
+            <p class="description_captoin text_color_gray">Lorem Ipsum - это текст- "рыба", часто используе в печати и
               вэб-дизайне.</p>
           </div>
         </div>
 
-        <div class="services__wrapper-examples-item">
-          <div class="external__circle">
-            <div class="interior__circle">
-              <img class="services__notebook-image"
-                   src="./static/icons/notebook.svg"
-                   alt="notebook" />
+        <div class="services__item">
+          <div class="services__external-circle">
+            <div class="services__interior-circle">
+              <svg class="services__notebook">
+                <use xlink:href="static/icons/sprite.svg#notebook">
+                </use>
+              </svg>
             </div>
           </div>
           <div class="services__description">
-            <h3 class="main-text-black">Создание сайтов</h3>
-            <p class="main-text-gray margin_top-0">Lorem Ipsum - это текст- "рыба", часто используе в печати и
+            <h3 class="text_color_black">Создание сайтов</h3>
+            <p class="description_captoin text_color_gray">Lorem Ipsum - это текст- "рыба", часто используе в печати и
               вэб-дизайне.</p>
           </div>
         </div>
       </div>
-      <button class="main__button">Все услуги</button>
+      <button class="services_button main__button">Все услуги</button>
     </section>
     </div>
 
     <section class="standards__development container">
       <div class="standards__wrapper">
         <div class="standards__wrapper-description">
-          <h2 class="main-black-title">Высокие стандарты разработки</h2>
-          <p class="main-text-gray">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+          <h2 class="title_color_black">Высокие стандарты разработки</h2>
+          <p class="text_color_gray">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
             вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
             текстов на латинице с начала XVI века. стандартной "рыбой" для
             текстов на латинице с начала XVI века.
@@ -120,107 +124,117 @@
       <div class="project-elements">
         <div class="project-elements__wrapper">
           <div class="project-elements__header">
-            <img src="./static/icons/amount.svg"
-                 alt="amount" />
+            <svg class="project-elements__amount">
+              <use xlink:href="static/icons/sprite.svg#amount">
+              </use>
+            </svg>
             <p class="project-elements__number">125</p>
           </div>
-          <p class="main-text-gray margin_top-0 text-align_center">Our projects</p>
+          <p class="elements_caption text_color_gray">Our projects</p>
         </div>
 
         <div class="project-elements__wrapper">
           <div class="project-elements__header">
-            <img src="./static/icons/amount.svg"
-                 alt="amount" />
+            <svg class="project-elements__amount">
+              <use xlink:href="static/icons/sprite.svg#amount">
+              </use>
+            </svg>
             <p class="project-elements__number">125</p>
           </div>
-          <p class="main-text-gray margin_top-0 text-align_center">Our projects</p>
+          <p class="elements_caption text_color_gray">Our projects</p>
         </div>
 
         <div class="project-elements__wrapper">
           <div class="project-elements__header">
-            <img src="./static/icons/amount.svg"
-                 alt="amount" />
+            <svg class="project-elements__amount">
+              <use xlink:href="static/icons/sprite.svg#amount">
+              </use>
+            </svg>
             <p class="project-elements__number">125</p>
           </div>
-          <p class="main-text-gray margin_top-0 text-align_center">Our projects</p>
+          <p class="elements_caption text_color_gray">Our projects</p>
         </div>
 
         <div class="project-elements__wrapper">
           <div class="project-elements__header">
-            <img src="./static/icons/amount.svg"
-                 alt="amount" />
+            <svg class="project-elements__amount">
+              <use xlink:href="static/icons/sprite.svg#amount">
+              </use>
+            </svg>
             <p class="project-elements__number">125</p>
           </div>
-          <p class="main-text-gray margin_top-0 text-align_center">Our projects</p>
+          <p class="elements_caption text_color_gray">Our projects</p>
         </div>
 
         <div class="project-elements__wrapper">
           <div class="project-elements__header">
-            <img src="./static/icons/amount.svg"
-                 alt="amount" />
+            <svg class="project-elements__amount">
+              <use xlink:href="static/icons/sprite.svg#amount">
+              </use>
+            </svg>
             <p class="project-elements__number">125</p>
           </div>
-          <p class="main-text-gray margin_top-0 text-align_center">Our projects</p>
+          <p class="elements_caption text_color_gray">Our projects</p>
         </div>
       </div>
 
     </section>
 
-    <section class="example-of-work">
-      <div class="container">
-        <div class="example-of-work__header">
-          <h2 class="main-white-title">Наши работы, на которых мы специализируемся</h2>
-          <button class="main__button example-of-work_button">Все услуги</button>
+    <section class="example-of-work container">
+      <div class="example-of-work__header">
+        <h2 class="example_title title_color_white">Наши работы, на которых мы специализируемся</h2>
+        <button class="main__button example-of-work_button">Все услуги</button>
+      </div>
+
+      <div class="example-of-work__elements">
+        <div class="example-of-work__wrapper">
+          <img class="example-of-work__image"
+               src="./static/images/we_working.webp"
+               alt="we working" />
+          <h3 class="example-of-work__elements-title"><span class="example-of-work__title-number">01.</span>
+            Исследование и упаковка</h3>
+          <p class="text_color_gray">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
+            текстов на латинице с начала XVI века.</p>
+          <a href="#"
+             class="main__link">Подробнее</a>
         </div>
 
-        <div class="example-of-work__elements">
-          <div class="example-of-work__wrapper">
-            <img class="example-of-work__image"
-                 src="./static/images/we_working.webp"
-                 alt="we working" />
-            <h3 class="example-of-work__elements-title"><span class="example-of-work__title-number">01.</span>
-              Исследование и упаковка</h3>
-            <p class="main-text-gray">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
-              текстов на латинице с начала XVI века.</p>
-            <a href="#"
-               class="main__link">Подробнее</a>
-          </div>
+        <div class="example-of-work__wrapper">
+          <img class="example-of-work__image"
+               src="./static/images/we_working.webp"
+               alt="we working" />
+          <h3 class="example-of-work__elements-title"><span class="example-of-work__title-number">01.</span>
+            Исследование и упаковка</h3>
+          <p class="text_color_gray">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
+            текстов на латинице с начала XVI века.</p>
+          <a href="#"
+             class="main__link">Подробнее</a>
 
-          <div class="example-of-work__wrapper">
-            <img class="example-of-work__image"
-                 src="./static/images/we_working.webp"
-                 alt="we working" />
-            <h3 class="example-of-work__elements-title"><span class="example-of-work__title-number">01.</span>
-              Исследование и упаковка</h3>
-            <p class="main-text-gray">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
-              текстов на латинице с начала XVI века.</p>
-            <a href="#"
-               class="main__link">Подробнее</a>
-          </div>
+        </div>
 
-          <div class="example-of-work__wrapper">
-            <img class="example-of-work__image"
-                 src="./static/images/we_working.webp"
-                 alt="we working" />
-            <h3 class="example-of-work__elements-title">
-              <span class="example-of-work__title-number">01.</span>
-              Исследование и упаковка
-            </h3>
-            <p class="main-text-gray">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
-              текстов на латинице с начала XVI века.</p>
-            <a href="#"
-               class="main__link">Подробнее</a>
-          </div>
+
+        <div class="example-of-work__wrapper">
+          <img class="example-of-work__image"
+               src="./static/images/we_working.webp"
+               alt="we working" />
+          <h3 class="example-of-work__elements-title">
+            <span class="example-of-work__title-number">01.</span>
+            Исследование и упаковка
+          </h3>
+          <p class="text_color_gray">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
+            текстов на латинице с начала XVI века.</p>
+          <a href="#"
+             class="main__link">Подробнее</a>
         </div>
       </div>
     </section>
 
     <section class="projects-example container">
-      <h2 class="main-black-title">Наши проекты</h2>
-      <p class="main-text-gray main-text_max-width">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+      <h2 class="title_color_black">Наши проекты</h2>
+      <p class="text_color_gray main-text_max-width">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
         вэб-дизайне. Lorem Ipsum
         является стандартной
         "рыбой" для текстов на латинице с начала XVI века. </p>
@@ -238,141 +252,257 @@
     </section>
 
     <section class="main-video container">
-      <h2 class="main-white-title margin-top_70">Видео о нашей работе</h2>
-      <p class="main-text-white margin-top_30">Просто посмотрите, как мы работаем</p>
+      <h2 class="main-video_header title_color_white">Видео о нашей работе</h2>
+      <p class="main-video_description text_color_white">Просто посмотрите, как мы работаем</p>
       <div class="main-video_player">
         <div class="main-video__wrapper">
-          <img src="./static/icons/play-button.svg"
-               alt="play button">
-          <p class="main-text-white margin_left-15">Смотреть видео</p>
+          <svg class="main-video__play-button">
+            <use x="20"
+                 y="20"
+                 xlink:href="static/icons/sprite.svg#play-button">
+            </use>
+          </svg>
+          <p class="text_color_white main-video_text">Смотреть видео</p>
         </div>
       </div>
     </section>
-    <section class="mailing-list container">
-      <div class="miling-list__wrapper line-gray_top">
-        <h3 class="main-text-black">Подпишитесь на нашу рассылку</h3>
-        <p class="main-text-gray margin-top_30">Полезные статьи, акции, новости - получите все это сейчас!</p>
-        <div class="entry-field__wrapper margin-top_30">
+    <section class="mailing container">
+      <div class="miling_wrapper miling-list__line-gray">
+        <h3 class="text_color_black">Подпишитесь на нашу рассылку</h3>
+        <p class="miling_description text_color_gray">Полезные статьи, акции, новости - получите все это сейчас!
+        </p>
+        <div class="entry-field__wrapper">
           <input class="entry-field"
                  type="text"
                  placeholder="Ваш e-mail">
-          <button class="entry-field__button">Подписаться</button>
+          <button class="entry-field__button text_color_white">Подписаться</button>
         </div>
-        <p class="main-text-gray font-size_13">Мы не шлем спам, и передаем никому ваши данные.</p>
+        <p class="text_color_gray font-size_13">Мы не шлем спам, и передаем никому ваши данные.</p>
       </div>
     </section>
   </main>
 
   <footer class="footer container">
-    <ul class="footer__list line_gray pading_bottom-70">
+    <ul class="footer__list footer__list_line-gray">
       <li>
-        <h2 class="main-text-black">Контактная информация</h2>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/letter.svg"
-               alt="letter">
-          <a class="main-text-gray margin_left-15"
-             href="#">test@test.ru</a>
-        </div>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/call.svg"
-               alt="call">
-          <a class="main-text-gray margin_left-15"
-             href="tel:+87775556699 margin-top_30">+8 777 555 66 99</a>
-        </div>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/placeholder.svg"
-               alt="placeholder">
-          <a class="main-text-gray margin_left-15"
-             href="#">Москва, Бульвар Ленина 33</a>
-        </div>
+        <h2 class="text_color_black">Контактная информация</h2>
+        <ul class="footer__wrapper">
+          <li><a href="#">
+              <svg class="footer__icons">
+                <use y="3"
+                     xlink:href="static/icons/sprite.svg#letter">
+                </use>
+              </svg>
+              </svg>
+          </li>
+          <li>
+            <a class="text_color_gray footer_link"
+               href="mailto:test@test.ru">test@test.ru</a>
+          </li>
+        </ul>
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#"><svg y="5"
+                   class="footer__icons">
+                <use xlink:href="static/icons/sprite.svg#call">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li><a class="text_color_gray footer_link"
+               href="tel:+87775556699">+8 777 555 66 99</a>
+          </li>
+        </ul>
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#"><svg y="5"
+                   class="footer__icons">
+                <use xlink:href="static/icons/sprite.svg#placeholder">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="text_color_gray footer_link"
+               href="#">Москва, Бульвар Ленина 33</a>
+          </li>
+        </ul>
+      </li>
+
+      <ul>
+        <h2 class="text_color_black">Основные ссылки</h2>
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#"><svg class="footer__icons">
+                <use y="5"
+                     xlink:href="static/icons/sprite.svg#vector">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li><a class="text_color_gray footer_link"
+               href="#">Главная</a>
+          </li>
+        </ul>
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#">
+              <svg class="footer__icons">
+                <use y="5"
+                     xlink:href="static/icons/sprite.svg#vector">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="text_color_gray footer_link"
+               href="#">Наши проекты</a>
+          </li>
+        </ul>
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#"><svg class="footer__icons">
+                <use y="5"
+                     xlink:href="static/icons/sprite.svg#vector">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li><a class="text_color_gray footer_link"
+               href="#">Наши услуги</a>
+          </li>
+        </ul>
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#"><svg class="footer__icons">
+                <use y="5"
+                     xlink:href="static/icons/sprite.svg#vector">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li><a class="text_color_gray footer_link"
+               href="#">Контакты</a>
+          </li>
+        </ul>
+      </ul>
+
+      <li>
+        <h2 class="text_color_black">Наши проекты</h2>
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#"><svg class="footer__icons">
+                <use y="5"
+                     xlink:href="static/icons/sprite.svg#vector">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li><a class="text_color_gray footer_link"
+               href="#">РосНано</a>
+          </li>
+        </ul>
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#"><svg class="footer__icons">
+                <use y="5"
+                     xlink:href="static/icons/sprite.svg#vector">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li><a class="text_color_gray footer_link"
+               href="#">Сколково</a>
+          </li>
+        </ul>
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#"><svg class="footer__icons">
+                <use y="5"
+                     xlink:href="static/icons/sprite.svg#vector">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li><a class="text_color_gray footer_link"
+               href="#">Проект Восток</a>
+          </li>
+        </ul>
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#"><svg class="footer__icons">
+                <use y="5"
+                     xlink:href="static/icons/sprite.svg#vector">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li><a class="text_color_gray footer_link"
+               href="#">ТЭЦ Калининграда</a>
+          </li>
+        </ul>
       </li>
 
       <li>
-        <h2 class="main-text-black">Основные ссылки</h2>
-        <div class="margin-top_30">
-          <img src="./static/icons/vector.svg"
-               alt="">
-          <a class="main-text-gray margin_left-15"
-             href="#">Главная</a>
-        </div>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/vector.svg"
-               alt="">
-          <a class="main-text-gray margin_left-15"
-             href="#">Наши проекты</a>
-        </div>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/vector.svg"
-               alt="">
-          <a class="main-text-gray margin_left-15"
-             href="#">Наши услуги</a>
-        </div>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/vector.svg"
-               alt="">
-          <a class="main-text-gray margin_left-15"
-             href="#">Контакты</a>
-        </div>
+        <h2 class="text_color_black">Социальные сети</h2>
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#"><svg class="footer__icons">
+                <use y="5"
+                     xlink:href="static/icons/sprite.svg#vector">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li><a class="text_color_gray footer_link"
+               href="#">VK.com</a>
+          </li>
+        </ul>
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#"><svg class="footer__icons">
+                <use y="5"
+                     xlink:href="static/icons/sprite.svg#vector">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li><a class="text_color_gray footer_link"
+               href="#">Instagram</a>
+          </li>
+        </ul>
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#"><svg class="footer__icons">
+                <use y="5"
+                     xlink:href="static/icons/sprite.svg#vector">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li><a class="text_color_gray footer_link"
+               href="#">Facebook</a>
+          </li>
+        </ul>
+
+        <ul class="footer__wrapper">
+          <li>
+            <a href="#"><svg class="footer__icons">
+                <use y="5"
+                     xlink:href="static/icons/sprite.svg#vector">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li><a class="text_color_gray footer_link"
+               href="#">Twitter</a>
+          </li>
+        </ul>
       </li>
 
-      <li>
-        <h2 class="main-text-black">Наши проекты</h2>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/vector.svg"
-               alt="">
-          <a class="main-text-gray margin_left-15"
-             href="#">РосНано</a>
-        </div>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/vector.svg"
-               alt="">
-          <a class="main-text-gray margin_left-15"
-             href="#">Сколково</a>
-        </div>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/vector.svg"
-               alt="">
-          <a class="main-text-gray margin_left-15"
-             href="#">Проект “Восток”</a>
-        </div>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/vector.svg"
-               alt="">
-          <a class="main-text-gray margin_left-15"
-             href="#">ТЭЦ Калининграда</a>
-        </div>
-      </li>
-
-      <li>
-        <h2 class="main-text-black">Социальные сети</h2>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/vector.svg"
-               alt="">
-          <a class="main-text-gray margin_left-15"
-             href="#">VK.com</a>
-        </div>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/vector.svg"
-               alt="">
-          <a class="main-text-gray margin_left-15"
-             href="#">Instagram</a>
-        </div>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/vector.svg"
-               alt="">
-          <a class="main-text-gray margin_left-15"
-             href="#">Facebook</a>
-        </div>
-        <div class="footer__wrapper margin-top_30">
-          <img src="./static/icons/vector.svg"
-               alt="">
-          <a class="main-text-gray margin_left-15"
-             href="#">Twitter</a>
-        </div>
-      </li>
     </ul>
 
-    <p class="bottom__caption main-text-gray">(с) 2019. Все права защищены.</p>
+    <p class="bottom__caption text_color_gray">(с) 2019. Все права защищены.</p>
   </footer>
 </body>
 
